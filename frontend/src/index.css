@@ -1,0 +1,43 @@
+/*
+=========================================================================
+  GLOBAL STYLES
+=========================================================================
+  This single line loads the whole Tailwind CSS framework (version 4).
+  After it, we can use classes like "flex", "bg-white", "rounded-xl"
+  anywhere in our JSX.
+=========================================================================
+*/
+@import "tailwindcss";
+
+/* A few small styles that are easier to write as plain CSS */
+
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, Arial, sans-serif;
+  background-color: #f1f5f9; /* slate-100 */
+  color: #0f172a; /* slate-900 */
+}
+
+/* a slimmer scrollbar, so long tables look nicer */
+::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #e2e8f0;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #94a3b8;
+  border-radius: 8px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #64748b;
+}

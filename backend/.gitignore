@@ -1,0 +1,12 @@
+# dependencies
+node_modules/
+
+# secrets - never push this file
+.env
+
+# uploaded profile photos
+public/uploads/
+
+# logs
+*.log
+npm-debug.log*
